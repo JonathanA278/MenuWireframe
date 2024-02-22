@@ -3,7 +3,7 @@
     font-family: Arial, sans-serif;
   }
   .navbar {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
   }
   .navbar a {
@@ -11,7 +11,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 20px 20px;
     text-decoration: none;
   }
   .navbar a:hover {
