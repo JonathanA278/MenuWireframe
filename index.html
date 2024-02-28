@@ -4,27 +4,44 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Restaurant Menu</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
 </style>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="#"><img src="img/pr-flag.jpg" alt=""></a>
-  <a href="#">Home</a>
-  <a href="#">Menu</a>
-  <a href="#">Hours</a>
-  <a href="#">About</a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Salsa Borinquen Cafe</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <a href="#"><img src="img/pr-flag.jpg" alt=""></a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-<div class="restaurant-name">Salsa Borinquen Cafe</div>
+<div class="restaurant-name">Welcome to Salsa Borinquen Cafe</div>
 
 <div class="menu">
   <div class="menu-item">
     <img src="img/dish1.jpg" alt="Dish 1">
     <div class="menu-item-title">Arroz Con Gandules</div>
-    <div class="menu-item-description"> a combination of yellow rice, pigeon peas, and pork, cooked in the same pot with sofrito.</div>
+    <div class="menu-item-description">A combination of yellow rice, pigeon peas, and pork, cooked in the same pot with sofrito.</div>
   </div>
 
   <div class="menu-item">
@@ -36,17 +53,24 @@
   <div class="menu-item">
     <img src="img/dish3.jpg" alt="Dish 3">
     <div class="menu-item-title">Mofongo con camarones</div>
-    <div class="menu-item-description">fried green plantains mashed with garlic, and shrimp.</div>
+    <div class="menu-item-description">Fried green plantains mashed with garlic, and shrimp.</div>
   </div>
 
   <div class="menu-item">
     <img src="img/dish4.jpg" alt="Dish 4">
     <div class="menu-item-title">Pernil</div>
-    <div class="menu-item-description">a slow-roasted marinated pork leg or pork shoulder common in Latin American cuisine.</div>
+    <div class="menu-item-description">A slow-roasted marinated pork leg or pork shoulder common in Latin American cuisine.</div>
   </div>
 
   <!-- Add more menu items as needed -->
+
 </div>
+
+<!-- Add sides box under Dishes with all sides. MAKE box take up whole width of screen. -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
